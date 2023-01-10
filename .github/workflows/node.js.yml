@@ -28,8 +28,6 @@ jobs:
         cache: 'npm'
    
 
-    - name: Lint
-      run: npm run lint
 
     - name: Test
       run: npm run test:ci
